@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['ball']
+
+roboflow:
+  workspace: ilfv-0inxq
+  project: ball-models-4gsbm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ilfv-0inxq/ball-models-4gsbm/dataset/2

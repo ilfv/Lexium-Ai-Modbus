@@ -1,0 +1,17 @@
+{
+    "logs_dir": "logs",
+    "mainloop_step_delay": 0,
+    "ai": {
+        "model_path": "model.onnx",
+        "init_image_path": "ai_init.jpg"
+    },
+    "camera": {
+        "cv2_index": 0,
+        "translate_colors": true
+    },
+    "modbus": {
+        "port": "COM2",
+        "addres": 1,
+        "timeout": 0.1
+    }
+}
