@@ -1,6 +1,11 @@
 import logging
 from os import mkdir, path
 
+from .settings import Config
+
+_config = Config()
+
+
 def get_logger(module_path: str, logger_name: str):
     """
     Creates and configures a logger with the specified name and settings.
